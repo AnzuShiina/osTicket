@@ -339,7 +339,7 @@ implements TemplateVariable, Searchable {
             $this->flags &= ~$flag;
     }
 
-    static function getHelpTopics($publicOnly=false, $disabled=false, $localize=true, $whitelist=array(), $primaryContactOnly=false, $limitByOrganization=false, $client=null) {
+    static function getHelpTopics($publicOnly=false, $disabled=false, $localize=true, $whitelist=array(), $allData=false, $primaryContactOnly=false, $limitByOrganization=false, $client=null) {
       global $cfg;
       static $topics, $names = array();
 
