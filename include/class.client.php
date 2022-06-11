@@ -87,7 +87,7 @@ implements EmailContact, ITicketUser, TemplateVariable {
     function getEmail() { return ($this->user) ? $this->user->getEmail() : null; }
     function isPrimaryContact() { return ($this->user) ? $this->user->isPrimaryContact() : null; }
     function getOrganization() { return ($this->user) ? $this->user->getOrganization() : null; }
-	function getName() {
+    function getName() {
         return ($this->user) ? $this->user->getName() : null;
     }
 
