@@ -16,5 +16,5 @@ ALTER TABLE `%TABLE_PREFIX%help_topic` ADD COLUMN orgpconly tinyint(1) unsigned 
 
 -- Finished with patch
 UPDATE `%TABLE_PREFIX%config`
-    SET `value` = 'dd88e7c232587526e90f49273d1c15ca'
+    SET `value` = '985397fe7cb42aa2a53fed418b90bcf0'
     WHERE `key` = 'schema_signature' AND `namespace` = 'core'; 
